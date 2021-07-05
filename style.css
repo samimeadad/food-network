@@ -7,14 +7,39 @@ body{
 .intro-section{
     display : flex;
     width : 100%;
-    padding-left: 25%;
+    padding-left: 7%;
 }
 
 .intro-content-div h1{
-    font-size: 50px;
+    font-size: 40px;
+    color
+}
+
+.orange-color{
+    color: orange;
 }
 
 .intro-content-div{
-    margin-top: 120px;
-    margin-right: 100px;
+    width: 50%;
+    margin-top: 7%;
+}
+
+.intro-photo-div{
+    width : 50%;
+    margin-top: 2%;
+    margin-right: 10%;
+}
+
+.intro-photo-div img{
+    width: 100%;
+}
+
+.order-food-button{
+    text-decoration: none;
+    background-image: linear-gradient(to left, rgb(255,69,0),  rgba(255, 69, 0, 0.39));
+    padding: 16px 24px;
+    color: white;
+    border-radius: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
