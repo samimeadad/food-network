@@ -125,11 +125,11 @@ h1{
 }
 
 .social-div{
-    margin-left: 3%;
+    margin-left: 2%;
+    margin-bottom: 1%;
     text-align: center;
 }
 
 .social-div img{
-    width : 20%;
-    margin-bottom: 3%;
+    width : 10%;
 }
