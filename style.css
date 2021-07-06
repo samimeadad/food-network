@@ -133,3 +133,16 @@ h1{
 .social-div img{
     width : 10%;
 }
+
+footer{
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width : 100%;
+    text-align : center;
+    background-color: black;
+    color : gray;
+}
+footer p{
+    color: white;
+}
