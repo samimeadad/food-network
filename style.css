@@ -138,8 +138,8 @@ h1{
 
 footer{
     margin-top: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     width : 100%;
     text-align : center;
     background-color: black;
@@ -149,6 +149,10 @@ footer p{
     color: white;
     font-size:small;
     margin-bottom: 2%;
+}
+
+footer h1{
+    font-size: 36px;
 }
 /* Basic Content CSS Ends Here */
 
