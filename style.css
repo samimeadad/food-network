@@ -83,12 +83,6 @@ h1{
     padding-right: 25%;
 }
 
-.recipies-section{
-    display : flex;
-    width : 100%;
-    padding-left: 13%;
-}
-
 .recipies-heading{
     width : 100%;
     text-align : center;
@@ -96,10 +90,22 @@ h1{
     margin-bottom: 3%;
 }
 
+.recipies-section{
+    display : flex;
+    width : 80%;
+    margin-left: 11%;
+}
+
 .reccipies-section-div{
     width : 33%;
-    text-align: justify; 
-    padding-right: 20%;
+    text-align: justify;
+    padding: 1%;
+    border: 5x;
+    border-style: solid;
+    border-color: white;
+    border-radius: 40px;
+    margin-right: 5%;
+    box-shadow: 0 0 20px lightgray;
 }
 
 .reccipies-section-div img{
