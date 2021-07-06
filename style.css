@@ -6,8 +6,7 @@ body{
 
 .intro-section{
     display : flex;
-    width : 93%;
-    padding-left: 7%;
+    width : 100%;
     background-image: url(images/Frame\ 58.jpg);
     color: hsla(0, 0%, 0%, 0.534);
 }
@@ -23,9 +22,9 @@ h1{
 
 .intro-content-div{
     width: 50%;
-    margin-top: 7%;
-    margin-left: 10%;
-    text-align: justify;
+    margin-top: 10%;
+    margin-left: 20%;
+    text-align: left;
 }
 
 .intro-content-div p{
@@ -34,29 +33,27 @@ h1{
 
 .intro-photo-div{
     width : 50%;
-    margin-top: 1%;
-    margin-right: 15%;
+    margin-right: 10%;
 }
 
 .intro-photo-div img{
-    width: 80%;
+    width: 100%;
 }
 
 .button-decor{
     text-decoration: none;
     background-image: linear-gradient(to left, rgb(255,69,0),  rgba(255, 69, 0, 0.39));
-    padding: 16px 24px;
+    padding: 3% 5%;
     color: white;
-    border-radius: 40px;
+    border-radius: 50px;
     font-weight: bold;
 }
 
 .mid-section{
     display : flex;
-    width : 93%;
+    width : 100%;
     margin-top: 5%;
     margin-bottom: 5%;
-    padding-left: 7%;
     color:hsla(0, 0%, 0%, 0.534);
     background-image: url(images/Frame\ 57.jpg);
 }
@@ -64,7 +61,7 @@ h1{
 .mid-photo-div{
     width : 50%;
     margin-top: 3%;
-    margin-left: 15%;
+    margin-left: 27%;
 }
 
 .mid-photo-div img{
@@ -73,14 +70,15 @@ h1{
 
 .mid-content-div{
     width: 50%;
-    margin-top: 5%;
-    margin-right: 17%;
+    margin-top: 3%;
+    margin-right: 10%;
     text-align: justify;
 }
 
 .mid-content-div p{
     margin-bottom: 10%;
-    padding-right: 25%;
+    margin-right: 20%;
+    line-height: 2;
 }
 
 .recipies-heading{
@@ -92,8 +90,7 @@ h1{
 
 .recipies-section{
     display : flex;
-    width : 93%;
-    margin-left: 5%;
+    width : 100%;
     margin-bottom: 5%;
 }
 
@@ -105,6 +102,7 @@ h1{
     border-style: solid;
     border-color: white;
     border-radius: 40px;
+    margin-left: 5%;
     margin-right: 5%;
     box-shadow: 0 0 20px lightgray;
 }
@@ -145,4 +143,5 @@ footer{
 }
 footer p{
     color: white;
+    font-size:small;
 }
