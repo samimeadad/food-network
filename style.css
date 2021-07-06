@@ -1,6 +1,6 @@
 body{
-    margin 0;
-    padding : 0;
+    margin 0px;
+    padding : 0px;
     font-family: font-family: 'Roboto', sans-serif;
 }
 
@@ -9,6 +9,7 @@ body{
     width : 100%;
     padding-left: 7%;
     background-image: url(images/Frame\ 58.jpg);
+    color:hsla(0, 0%, 0%, 0.534);
 }
 
 h1{
@@ -25,7 +26,6 @@ h1{
     margin-top: 7%;
     margin-left: 10%;
     text-align: justify;
-    color:hsla(0, 0%, 0%, 0.534)
 }
 
 .intro-content-div p{
@@ -55,7 +55,9 @@ h1{
     display : flex;
     width : 100%;
     margin-top: 5%;
+    margin-bottom: 5%;
     padding-left: 7%;
+    color:hsla(0, 0%, 0%, 0.534);
     background-image: url(images/Frame\ 57.jpg);
 }
 
@@ -74,10 +76,32 @@ h1{
     margin-top: 5%;
     margin-right: 17%;
     text-align: justify;
-    color:hsla(0, 0%, 0%, 0.534)
 }
 
 .mid-content-div p{
     margin-bottom: 20%;
     padding-right: 25%;
+}
+
+.recipies-section{
+    display : flex;
+    width : 100%;
+    padding-left: 13%;
+}
+
+.recipies-heading{
+    width : 100%;
+    text-align : center;
+    color:hsla(0, 0%, 0%, 0.534);
+    margin-bottom: 3%;
+}
+
+.reccipies-section-div{
+    width : 33%;
+    text-align: justify; 
+    padding-right: 20%;
+}
+
+.reccipies-section-div img{
+    width: 100%;
 }
