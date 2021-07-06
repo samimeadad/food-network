@@ -11,25 +11,30 @@ body{
     background-image: url(images/Frame\ 58.jpg);
 }
 
-
+h1{
+    font-size: 40px;
+}
 
 .orange-color{
     color: orange;
+    font-weight: bold;
 }
 
 .intro-content-div{
     width: 50%;
     margin-top: 7%;
     margin-left: 10%;
+    text-align: justify;
+    color:hsla(0, 0%, 0%, 0.534)
 }
-.intro-content-div h1{
-    font-size: 40px;
-    color:hsla(0, 0%, 0%, 0.61)
+
+.intro-content-div p{
+    margin-bottom: 10%;
 }
 
 .intro-photo-div{
     width : 50%;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-right: 15%;
 }
 
@@ -37,11 +42,42 @@ body{
     width: 80%;
 }
 
-.order-food-button{
+.button-decor{
     text-decoration: none;
     background-image: linear-gradient(to left, rgb(255,69,0),  rgba(255, 69, 0, 0.39));
     padding: 16px 24px;
     color: white;
     border-radius: 40px;
     font-weight: bold;
+}
+
+.mid-section{
+    display : flex;
+    width : 100%;
+    margin-top: 5%;
+    padding-left: 7%;
+    background-image: url(images/Frame\ 57.jpg);
+}
+
+.mid-photo-div{
+    width : 50%;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+
+.mid-photo-div img{
+    width: 50%;
+}
+
+.mid-content-div{
+    width: 50%;
+    margin-top: 5%;
+    margin-right: 17%;
+    text-align: justify;
+    color:hsla(0, 0%, 0%, 0.534)
+}
+
+.mid-content-div p{
+    margin-bottom: 20%;
+    padding-right: 25%;
 }
