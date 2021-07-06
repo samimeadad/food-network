@@ -8,12 +8,10 @@ body{
     display : flex;
     width : 100%;
     padding-left: 7%;
+    background-image: url(images/Frame\ 58.jpg);
 }
 
-.intro-content-div h1{
-    font-size: 40px;
-    color
-}
+
 
 .orange-color{
     color: orange;
@@ -22,12 +20,17 @@ body{
 .intro-content-div{
     width: 50%;
     margin-top: 7%;
+    margin-left: 10%;
+}
+.intro-content-div h1{
+    font-size: 40px;
+    color:hsla(0, 0%, 0%, 0.61)
 }
 
 .intro-photo-div{
     width : 50%;
     margin-top: 2%;
-    margin-right: 10%;
+    margin-right: 15%;
 }
 
 .intro-photo-div img{
@@ -41,5 +44,4 @@ body{
     color: white;
     border-radius: 40px;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
 }
